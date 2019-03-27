@@ -17,7 +17,7 @@ interface IDrawerProps {
   placement?: 'left' | 'right' | 'top' | 'bottom';
 
   /** drawerHandler could be button, icon, string or any component */
-  drawerHandler?: boolean;
+  drawerHandler?: any;
   children?: any;
   open?: boolean;
   toggleHandler?: () => any;

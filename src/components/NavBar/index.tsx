@@ -5,7 +5,7 @@ interface INavBar {
   className?: string;
   /** Used to render menu, logo, button or any component that
    * you want to show in navbar. */
-  children?: Element;
+  children?: any;
   navbarStyle?: string;
   width?: string | number;
   height?: string | number;
