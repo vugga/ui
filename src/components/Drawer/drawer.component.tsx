@@ -23,7 +23,7 @@ interface IDrawerProps {
   toggleHandler?: () => any;
 }
 
-const Drawer = ({
+export const Drawer = ({
   className,
   children,
   closeButton,
@@ -72,5 +72,3 @@ const Drawer = ({
     </Fragment>
   );
 };
-
-export default Drawer;
