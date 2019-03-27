@@ -20,7 +20,7 @@ interface INavBar {
   flexWrap?: string;
 }
 
-const Navbar = (navProps: INavBar) => {
+export const Navbar = (navProps: INavBar) => {
   const { className, children, navbarStyle, ...props } = navProps;
   
   // Add all classs to an array
@@ -37,5 +37,3 @@ const Navbar = (navProps: INavBar) => {
     </NavbarStyle>
   );
 };
-
-export default Navbar;
